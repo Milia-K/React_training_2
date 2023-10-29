@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+* {
+	padding: 0;
+	margin: 0;
+	}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.component {
+    color: white;
+    border: solid; 
+}
+
+.component-title{
+    text-align: center;
+    color: white;
+    border: solid white;
+    padding: 2%;
+}
+
+.component-price{
+    text-align: center;
+    color: white;
+    border: solid white;
+    padding: 20%;
+    font-size: 2em;
+}
+
+.component-description{
+    text-align: center;
+    color: white;
+    border: solid white;
+    padding: 2%;
+}
+
+.component-text{
+    text-align: center;
+    color: white;
+    border: solid white;
+    padding: 5%;
+}
